@@ -63,14 +63,14 @@ _(For example, DATESINPERIOD and DATESYTD helped in calculating metrics like 90-
 _(For example, SUMX helped in calculating metrics like revenue, profit, and total orders for each data point, which then became the building blocks for further analysis)_
 
 7. Relationship Functions: For example, RELATED
-_(For example, RELATE seamlessly pull data from different tables for a more comprehensive analysis, similar in logic to VLOOKUP)_
+_(For example, RELATE seamlessly pull data from different tables for a more comprehensive analysis, similar in logic to VLOOKUP)_  <br>
  
 **4. Dashboard Development: Built interactive dashboards tailored to stakeholder needs**
-
+<br>
 • Designed an interactive dashboard to visualize data using visuals like KPI cards, Slicers, Tooltips, and a range of visualizations, including bar charts, line graphs, pie charts, and maps, line and clustered column charts, gauge chart, map etc., offering intuitive data interpretations. <br>
 • Created bookmarks, drill-through filters, page-level and report-level filters, slicer panel, and custom navigation buttons. <br>
 
-This project serves as a showcase of advanced Power BI techniques and offers a deep dive into the business analytics of a retail bike shop. <br>
+This project serves as a showcase of advanced Power BI techniques and offers a deep dive into the business analytics of a retail bike shop. <br><br>
 
 ## **Data Visualizations for Adventure Works Analysis**
 <br>
@@ -78,17 +78,17 @@ The dashboard has four pages to unlock insights from the data - one for the exec
 
 **Executive Dashboard:**
 <br>
-• The Executive Dashboard page provides an overall view of key performance indicators (KPIs) like total revenue, profit, and orders, and top-selling product lists for easy comprehension of overall performance.
-• It is equipped with a slicer panel to filter data by year and continent for a more granular view.
+• The Executive Dashboard page provides an overall view of key performance indicators (KPIs) like total revenue, profit, and orders, and top-selling product lists for easy comprehension of overall performance.<br>
+• It is equipped with a slicer panel to filter data by year and continent for a more granular view.<br>
 
-![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Executive%20Dashboard.png)
+![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Executive%20Dashboard.png)  <br>
 
 **Maps**
 <br>
 • The Maps page shows a dynamic visualization of Adventure Works’ global order distribution, segmented by continents.<br>
 • It highlights dominant regions (e.g., US) and potential new markets (e.g., Asia, Africa, South America).<br>
 <br>
-![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Map.png)
+![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Map.png)  <br>
 <br>
 **Product Detail**
 <br>
@@ -96,7 +96,7 @@ The dashboard has four pages to unlock insights from the data - one for the exec
 • It shows details for the Patch Kit/8 Patches currently. For that product, we can see the monthly KPI versus their targets, and that not all KPIs have been fully accomplished against their targets.<br>
 • It also shows graphs for the total profit and returns, which automatically adjust with the time-period on the X-axis.<br>
 <br>
-![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Product%20Details.png)
+![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Product%20Details.png)  <br>
 <br>
 **Customer Detail**
 <br>
@@ -104,7 +104,7 @@ The dashboard has four pages to unlock insights from the data - one for the exec
 • It utilizes doughnut charts to illustrate customer breakdown by occupation and income.<br>
 • It shows a surge in total customers during July 2021, aligning with the peak cycling season.<br>
 • Employs a “Top 100 Customers” table to reveal customer purchase insights. (For example, revenue generated and orders placed by Mr. Maurice Shan’s versus those of Mrs. Janet Munoz's).<br>
-![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Customer%20Detail.png)
+![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Customer%20Detail.png)  
 <br>
 <br>
 Further analysis can be conducted with artificial intelligence visuals like Decomposition Trees and Key Influencers, as seen in the snippets below.<br>
