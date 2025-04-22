@@ -73,7 +73,7 @@ This project serves as a showcase of advanced Power BI techniques and offers a d
 
 ## **Data Visualizations for Adventure Works Analysis**
 
-The dashboard has four pages to unlock insights from the data - (1) one for the executive team, (2) one containing the geographical data, (3) one that analyzes the products, and (4) one for the customers' analysis: <br><br>
+The dashboard has four pages to unlock insights from the data - (1) one for the executive team, (2) one containing the geographical data, (3) one that analyzes the products, and (4) one for the customers' analysis: <br>
 
 **Executive Dashboard:**
 <br>
@@ -114,7 +114,7 @@ We can see that for the Product Categories 'Bikes', leading by returns rate in t
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Decomposition%20Tree.png)
 
 <br>
-The Key Influencers can be used to further analyze the data. In the instance shown below, one can find out what could lead a customer to be a homeowner, and by how much. For example, a parent is 1.58 times more likely to be a homeowner compared to non-parents, or a person is 1.06 times more likely to be a homeowner if their education level is 'Bachelors' compared to other levels of education in the data.<br>
+The Key Influencers can be used to further analyze the data. In the instance shown below, one can find out what could lead a customer to be a homeowner, and by how much. For example, a parent is 1.58 times more likely to be a homeowner compared to non-parents, or a person is 1.06 times more likely to be a homeowner if their education level is 'Bachelors' compared to other levels of education in the data.<br><br>
 
 **Key Influencers**
 <br>
