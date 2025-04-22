@@ -69,7 +69,7 @@ _(For example, RELATE seamlessly pull data from different tables for a more comp
 • Designed an interactive dashboard to visualize data using visuals like KPI cards, Slicers, Tooltips, and a range of visualizations, including bar charts, line graphs, pie charts, and maps, line and clustered column charts, gauge chart, map etc., offering intuitive data interpretations. <br>
 • Created bookmarks, drill-through filters, page-level and report-level filters, slicer panel, and custom navigation buttons. <br>
 
-This project serves as a showcase of advanced Power BI techniques and offers a deep dive into the business analytics of a retail bike shop. <br><br>
+This project serves as a showcase of advanced Power BI techniques and offers a deep dive into the business analytics of a retail bike shop. <br>
 
 ## **Data Visualizations for Adventure Works Analysis**
 
@@ -115,7 +115,7 @@ We can see that for the Product Categories 'Bikes', leading by returns rate in t
 
 <br>
 The Key Influencers can be used to further analyze the data. In the instance shown below, one can find out what could lead a customer to be a homeowner, and by how much. For example, a parent is 1.58 times more likely to be a homeowner compared to non-parents, or a person is 1.06 times more likely to be a homeowner if their education level is 'Bachelors' compared to other levels of education in the data.<br>
-<br>
+
 **Key Influencers**
 <br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Key%20Influencers.png)
