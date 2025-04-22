@@ -7,44 +7,56 @@
 This Power BI project is a comprehensive analysis and visualization of Adventure Works, a fictional global manufacturing company producing cycling equipment and accessories.
 
 The **brief** is that the management team needs a way to:
-• Track KPIs (sales, revenue, profit, returns)
-• Compare regional performance
-• Analyze product-level trends, and
-• Identify high-value customers
+1. Track KPIs (sales, revenue, profit, returns)
+2. Compare regional performance
+3. Analyze product-level trends, and
+4. Identify high-value customers
 
 The **dataset** consists of 10 CSV files and was provided with the [Maven Analytics Power BI Desktop course](https://mavenanalytics.io/course/microsoft-power-bi-desktop). 
-The customer base is spread across 6 countries on 3 continents: Australia, Canada, France, Germany, United Kingdom, and the United States. Sales and Return data are available for the period between 01/01/2020 and 06/30/2022. Customer details include Birth Date, Marital Status, Gender, Annual Income, Email ID, Education Level, Number Of Children, Occupation, and Home-owner Status.
+The customer base is spread across 6 countries on 3 continents: Australia, Canada, France, Germany, the United Kingdom, and the United States. Sales and Return data are available for the period between 01/01/2020 and 06/30/2022. Customer details include Birth Date, Marital Status, Gender, Annual Income, Email ID, Education Level, Number Of Children, Occupation, and Home-owner Status.
 
 The **objective** is to use the Power BI Desktop to:
-• Connect and transform the raw data
-• Build a relational data model
-• Create calculated columns and measures with DAX
-• Design an interactive dashboard to visualize the data
+1. Connect and transform the raw data
+2. Build a relational data model
+3. Create calculated columns and measures with DAX, and
+4. Design an interactive dashboard to visualize the data
 
 ## **Tools and Technologies**
  
-• Power BI Desktop: For dashboard creation
-• Power Query: Data transformation and data cleaning
-• DAX (Data Analysis Expressions): Creation of calculated columns and measures
-• Excel: Initial data exploration and validation
+1. Power BI Desktop: For dashboard creation
+2. Power Query: Data transformation and data cleaning
+3. DAX (Data Analysis Expressions): Creation of calculated columns and measures
+4. Excel: Initial data exploration and validation
 
 ## **Project Highlights**
 The project involved the following steps:
 **1. Data Transformation: Cleaned and transformed raw data using Power Query**
-• The data was provided in csv format files for Customer Details, Product Categories, Product Sub-categories, Territories, Sales, and Returns.
-• It is checked and cleaned for duplicates, error and tranformations were performed to create calculated columns and measures with common functions and formulas.
-• It is ensured that all columns had clear titles, appropriate data types, and no missing values.
-• This process also involved identifying potential relationships between different data tables.
-• A rolling calendar is created using PowerQuery M code.
+1. The data was provided in CSV files for Customer Details, Product Categories, Product Sub-categories, Territories, Sales, and Returns.
+2. It was checked and cleaned for duplicates, errors, and transformations were performed to create calculated columns and measures with common functions and formulas.
+3. It is ensured that all columns have clear titles, appropriate data types, and no missing values.
+4. This process also involved identifying potential relationships between different data tables.
+5. A rolling calendar is created using M code in Power Query Editor.
 
 **2. Data Modeling: Created relationships and calculated columns for effective analysis**
-• Built a relational data model by creating active relations between tables and understanding cardinality and filter flow.
-• This involved establishing the 'Sales Data' and 'Returns Data' tables as the foundation, and one-to-many connections between tables were used for analysis.
+1. Built a relational data model by creating active relations between tables and understanding cardinality and filter flow.
+2. This involved establishing the 'Sales Data' and 'Returns Data' tables as the foundation. One-to-many connections between tables were used for analysis.
 
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Data%20Modeling.png)
 
 **3. Calculated fields with DAX**
-• Creating calculated columns and measures using DAX
+• Creating calculated columns and measures using DAX. I leveraged DAX functions to unlock deeper insights from the Adventure Works dataset. Here are some key functions I used:
+
+1. Math Functions: For example, SUM, AVERAGE, MAX/MIN, COUNT, DISTINCTCOUNT
+2. Logical Functions: For example, IF, AND, OR, NOT
+3. Text Functions: For example, CONCATENATE, REPLACE, UPPER/LOWER
+4. Filter Functions: For example, CALCULATE, FILTER, ALL
+_(For example, CALCULATE helped as a filter override, enabling me to create new filter contexts. It proved invaluable for analyzing trends over time, such as previous month’s orders, revenue, profit, returns, and overall average price)_
+5. Date, Time, Time Intelligence: For example, DATE, YEAR/MONTH, DATEDIFF, DATESYTD
+_(For example, DATESINPERIOD and DATESYTD helped in calculating metrics like 90-day rolling profit, along with comparing current data points to previous months in terms of orders, profit, revenue, and returns)_
+6. Iterator Functions: For example, SUMX, AVERAGEX
+_(For example, SUMX helped in calculating metrics like revenue, profit, and total orders for each data point, which then became the building blocks for further analysis)_
+7. Relationship Functions: For example, RELATED
+_(For example, RELATE seamlessly pull data from different tables for a more comprehensive analysis, similar in logic to VLOOKUP)_
  
 **4. Dashboard Development: Built interactive dashboards tailored to stakeholder needs.**
 • Producing analytical Reports: Detailed reports focusing on sales performance, customer demographics, inventory management, and more.
