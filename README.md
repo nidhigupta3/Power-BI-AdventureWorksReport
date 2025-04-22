@@ -22,7 +22,7 @@ The **objective** is to use the Power BI Desktop to:<br>
 • Design an interactive dashboard to visualize the data
 
 ## **Tools and Technologies**
- <br>
+
 • Power BI Desktop: For dashboard creation <br>
 • Power Query: Data transformation and data cleaning <br>
 • DAX (Data Analysis Expressions): Creation of calculated columns and measures <br>
@@ -31,20 +31,20 @@ The **objective** is to use the Power BI Desktop to:<br>
 ## **Project Highlights**
 The project involved the following steps:
 
-**1. Data Transformation: Cleaned and transformed raw data using Power Query** <br>
+**1. Data Transformation: Cleaned and transformed raw data using Power Query** <br><br>
 • The data was provided in CSV files for Customer Details, Product Categories, Product Sub-categories, Territories, Sales, and Returns. <br>
 • It was checked and cleaned for duplicates, errors, and transformations were performed to create calculated columns and measures with common functions and formulas. <br>
 • It is ensured that all columns have clear titles, appropriate data types, and no missing values. <br>
 • This process also involved identifying potential relationships between different data tables. <br>
 • A rolling calendar is created using M code in Power Query Editor. <br>
 
-**2. Data Modeling: Created relationships and calculated columns for effective analysis** <br>
+**2. Data Modeling: Created relationships and calculated columns for effective analysis** <br><br>
 • Built a relational data model by creating active relations between tables and understanding cardinality and filter flow.<br>
 • This involved establishing the 'Sales Data' and 'Returns Data' tables as the foundation. One-to-many connections between tables were used for analysis. <br>
 
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Data%20Modeling.png)
 
-**3. Calculated fields with DAX: Created calculated columns and measures using DAX**<br> 
+**3. Calculated fields with DAX: Created calculated columns and measures using DAX**<br><br> 
 Leveraged DAX functions to unlock deeper insights from the Adventure Works dataset. Here are some key functions used:
 
 1. Math Functions: For example, SUM, AVERAGE, MAX/MIN, COUNT, DISTINCTCOUNT
@@ -65,22 +65,21 @@ _(For example, SUMX helped in calculating metrics like revenue, profit, and tota
 7. Relationship Functions: For example, RELATED
 _(For example, RELATE seamlessly pull data from different tables for a more comprehensive analysis, similar in logic to VLOOKUP)_  <br>
  
-**4. Dashboard Development: Built interactive dashboards tailored to stakeholder needs**
-<br>
+**4. Dashboard Development: Built interactive dashboards tailored to stakeholder needs** <br><br>
 • Designed an interactive dashboard to visualize data using visuals like KPI cards, Slicers, Tooltips, and a range of visualizations, including bar charts, line graphs, pie charts, and maps, line and clustered column charts, gauge chart, map etc., offering intuitive data interpretations. <br>
 • Created bookmarks, drill-through filters, page-level and report-level filters, slicer panel, and custom navigation buttons. <br>
 
 This project serves as a showcase of advanced Power BI techniques and offers a deep dive into the business analytics of a retail bike shop. <br><br>
 
 ## **Data Visualizations for Adventure Works Analysis**
-<br>
-The dashboard has four pages to unlock insights from the data - one for the executive team, one containing the geographical data, one that analyzed the products, and finally a page for the customers' analysis : <br>
+
+The dashboard has four pages to unlock insights from the data - (1) one for the executive team, (2) one containing the geographical data, (3) one that analyzes the products, and (4) one for the customers' analysis: <br><br>
 
 **Executive Dashboard:**
 <br>
 • The Executive Dashboard page provides an overall view of key performance indicators (KPIs) like total revenue, profit, and orders, and top-selling product lists for easy comprehension of overall performance.<br>
 • It is equipped with a slicer panel to filter data by year and continent for a more granular view.<br>
-
+<br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Executive%20Dashboard.png)  <br>
 
 **Maps**
@@ -104,8 +103,8 @@ The dashboard has four pages to unlock insights from the data - one for the exec
 • It utilizes doughnut charts to illustrate customer breakdown by occupation and income.<br>
 • It shows a surge in total customers during July 2021, aligning with the peak cycling season.<br>
 • Employs a “Top 100 Customers” table to reveal customer purchase insights. (For example, revenue generated and orders placed by Mr. Maurice Shan’s versus those of Mrs. Janet Munoz's).<br>
-![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Customer%20Detail.png)  
 <br>
+![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Customer%20Detail.png)  <br>
 <br>
 Further analysis can be conducted with artificial intelligence visuals like Decomposition Trees and Key Influencers, as seen in the snippets below.<br>
 We can see that for the Product Categories 'Bikes', leading by returns rate in the Subcategory are the 'Touring Bikes', with the leading Product being the 'Touring-2000 Blue,46' bike with 8.33% Return Rate.<br>
@@ -116,7 +115,7 @@ We can see that for the Product Categories 'Bikes', leading by returns rate in t
 
 <br>
 The Key Influencers can be used to further analyze the data. In the instance shown below, one can find out what could lead a customer to be a homeowner, and by how much. For example, a parent is 1.58 times more likely to be a homeowner compared to non-parents, or a person is 1.06 times more likely to be a homeowner if their education level is 'Bachelors' compared to other levels of education in the data.<br>
-
+<br>
 **Key Influencers**
 <br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Key%20Influencers.png)
