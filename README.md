@@ -6,41 +6,41 @@
 
 This Power BI project is a comprehensive analysis and visualization of Adventure Works, a fictional global manufacturing company producing cycling equipment and accessories.
 
-The **brief** is that the management team needs a way to:
-1. Track KPIs (sales, revenue, profit, returns)
-2. Compare regional performance
-3. Analyze product-level trends, and
-4. Identify high-value customers
+The **brief** is that the management team needs a way to:<br>
+• Track KPIs (sales, revenue, profit, returns)<br>
+• Compare regional performance<br>
+• Analyze product-level trends, and<br>
+• Identify high-value customers<br>
 
 The **dataset** consists of 10 CSV files and was provided with the [Maven Analytics Power BI Desktop course](https://mavenanalytics.io/course/microsoft-power-bi-desktop). 
 The customer base is spread across 6 countries on 3 continents: Australia, Canada, France, Germany, the United Kingdom, and the United States. Sales and Return data are available for the period between 01/01/2020 and 06/30/2022. Customer details include Birth Date, Marital Status, Gender, Annual Income, Email ID, Education Level, Number Of Children, Occupation, and Home-owner Status.
 
-The **objective** is to use the Power BI Desktop to:
-1. Connect and transform the raw data
-2. Build a relational data model
-3. Create calculated columns and measures with DAX, and
-4. Design an interactive dashboard to visualize the data
+The **objective** is to use the Power BI Desktop to:<br>
+• Connect and transform the raw data<br>
+• Build a relational data model<br>
+• Create calculated columns and measures with DAX, and<br>
+• Design an interactive dashboard to visualize the data
 
 ## **Tools and Technologies**
- 
-1. Power BI Desktop: For dashboard creation
-2. Power Query: Data transformation and data cleaning
-3. DAX (Data Analysis Expressions): Creation of calculated columns and measures
-4. Excel: Initial data exploration and validation
+ <br>
+• Power BI Desktop: For dashboard creation <br>
+• Power Query: Data transformation and data cleaning <br>
+• DAX (Data Analysis Expressions): Creation of calculated columns and measures <br>
+• Excel: Initial data exploration and validation <br>
 
 ## **Project Highlights**
 The project involved the following steps:
 
-**1. Data Transformation: Cleaned and transformed raw data using Power Query**
-1. The data was provided in CSV files for Customer Details, Product Categories, Product Sub-categories, Territories, Sales, and Returns.
-2. It was checked and cleaned for duplicates, errors, and transformations were performed to create calculated columns and measures with common functions and formulas.
-3. It is ensured that all columns have clear titles, appropriate data types, and no missing values.
-4. This process also involved identifying potential relationships between different data tables.
-5. A rolling calendar is created using M code in Power Query Editor.
+**1. Data Transformation: Cleaned and transformed raw data using Power Query** <br>
+• The data was provided in CSV files for Customer Details, Product Categories, Product Sub-categories, Territories, Sales, and Returns. <br>
+• It was checked and cleaned for duplicates, errors, and transformations were performed to create calculated columns and measures with common functions and formulas. <br>
+• It is ensured that all columns have clear titles, appropriate data types, and no missing values. <br>
+• This process also involved identifying potential relationships between different data tables. <br>
+• A rolling calendar is created using M code in Power Query Editor. <br>
 
-**2. Data Modeling: Created relationships and calculated columns for effective analysis**
-1. Built a relational data model by creating active relations between tables and understanding cardinality and filter flow.
-2. This involved establishing the 'Sales Data' and 'Returns Data' tables as the foundation. One-to-many connections between tables were used for analysis.
+**2. Data Modeling: Created relationships and calculated columns for effective analysis** <br>
+• Built a relational data model by creating active relations between tables and understanding cardinality and filter flow.<br>
+• This involved establishing the 'Sales Data' and 'Returns Data' tables as the foundation. One-to-many connections between tables were used for analysis. <br>
 
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Data%20Modeling.png)
 
@@ -66,45 +66,61 @@ _(For example, SUMX helped in calculating metrics like revenue, profit, and tota
 _(For example, RELATE seamlessly pull data from different tables for a more comprehensive analysis, similar in logic to VLOOKUP)_
  
 **4. Dashboard Development: Built interactive dashboards tailored to stakeholder needs**
-Visualizing data with reports
- • Building an interactive dashboard: Customized dashboards providing insightful metrics and KPIs relevant to the bike shop's operations.
- • Visualizations: A range of visualizations, including bar charts, line graphs, pie charts, and maps, offering intuitive data interpretations.
- Designed an interactive dashboard to visualize data using charts and visuals: KPI cards, Matrix, Slicers, Bar chart, Line and clustered column chart, Gauge, Map etc.
-Created Bookmarks, drill-through filters and page level, report level filters.
 
-This project serves as a showcase of advanced Power BI techniques and offers a deep dive into the business analytics of a retail bike shop.
+• Designed an interactive dashboard to visualize data using visuals like KPI cards, Slicers, Tooltips, and a range of visualizations, including bar charts, line graphs, pie charts, and maps, line and clustered column charts, gauge chart, map etc., offering intuitive data interpretations. <br>
+• Created bookmarks, drill-through filters, page-level and report-level filters, slicer panel, and custom navigation buttons. <br>
+
+This project serves as a showcase of advanced Power BI techniques and offers a deep dive into the business analytics of a retail bike shop. <br>
 
 ## **Data Visualizations for Adventure Works Analysis**
-
-My Power BI report utilized four key dashboards to unlock insights from the data:
-The dashboard had four pages, one for the executive team, one that had the geographical data, one that analyzed the products and finally a page for the customers.
+<br>
+The dashboard has four pages to unlock insights from the data - one for the executive team, one containing the geographical data, one that analyzed the products, and finally a page for the customers' analysis : <br>
 
 **Executive Dashboard:**
+<br>
+• The Executive Dashboard page provides an overall view of key performance indicators (KPIs) like total revenue, profit, and orders, and top-selling product lists for easy comprehension of overall performance.
+• It is equipped with a slicer panel to filter data by year and continent for a more granular view.
 
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Executive%20Dashboard.png)
 
 **Maps**
-The Maps page shows the geographical distribution of the company’s orders.
-
+<br>
+• The Maps page shows a dynamic visualization of Adventure Works’ global order distribution, segmented by continents.<br>
+• It highlights dominant regions (e.g., US) and potential new markets (e.g., Asia, Africa, South America).<br>
+<br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Map.png)
-
+<br>
 **Product Detail**
-The products page shows details for the All-Purpose bike stand. For that product, we can see the monthly KPI vs their targets, and that all KPIs had not been fully accomplished against their targets. We can also see graphs for the total profit and returns, which automatically adjust with the time-period on the x-axis.
-
+<br>
+• The Product Detail page enables a granular exploration of individual products.<br>
+• It shows details for the Patch Kit/8 Patches currently. For that product, we can see the monthly KPI versus their targets, and that not all KPIs have been fully accomplished against their targets.<br>
+• It also shows graphs for the total profit and returns, which automatically adjust with the time-period on the X-axis.<br>
+<br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Product%20Details.png)
-
+<br>
 **Customer Detail**
-
+<br>
+• The Customer Detail page delves into customer demographics and their impact on business metrics.<br>
+• It utilizes doughnut charts to illustrate customer breakdown by occupation and income.<br>
+• It shows a surge in total customers during July 2021, aligning with the peak cycling season.<br>
+• Employs a “Top 100 Customers” table to reveal customer purchase insights. (For example, revenue generated and orders placed by Mr. Maurice Shan’s versus those of Mrs. Janet Munoz's).<br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Customer%20Detail.png)
+<br>
+<br>
+Further analysis can be conducted with artificial intelligence visuals like Decomposition Trees and Key Influencers, as seen in the snippets below.<br>
+We can see that for the Product Categories 'Bikes', leading by returns rate in the Subcategory are the 'Touring Bikes', with the leading Product being the 'Touring-2000 Blue,46' bike with 8.33% Return Rate.<br>
 
 **Decomposition Tree**
-
+<br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Decomposition%20Tree.png)
 
-**Key Influencers and Top Segments**
+<br>
+The Key Influencers can be used to further analyze the data. In the instance shown below, one can find out what could lead a customer to be a homeowner, and by how much. For example, a parent is 1.58 times more likely to be a homeowner compared to non-parents, or a person is 1.06 times more likely to be a homeowner if their education level is 'Bachelors' compared to other levels of education in the data.<br>
 
+**Key Influencers**
+<br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Key%20Influencers.png)
-![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Top%20Segments.png)
+
 
 ## **Key Learnings & Skills**
 • DAX & Data Modeling: DAX language for calculated columns and measures.
