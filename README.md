@@ -7,39 +7,39 @@
 This Power BI project is a comprehensive analysis and visualization of Adventure Works, a fictional global manufacturing company producing cycling equipment and accessories.
 
 The **brief** is that the management team needs a way to:
-1. Track KPIs (sales, revenue, profit, returns)
-2. Compare regional performance
-3. Analyze product-level trends, and
-4. Identify high-value customers
+• Track KPIs (sales, revenue, profit, returns)
+• Compare regional performance
+• Analyze product-level trends, and
+• Identify high-value customers
 
 The **dataset** consists of 10 CSV files and was provided with the [Maven Analytics Power BI Desktop course](https://mavenanalytics.io/course/microsoft-power-bi-desktop). 
 The customer base is spread across 6 countries on 3 continents: Australia, Canada, France, Germany, United Kingdom, and the United States. Sales and Return data are available for the period between 01/01/2020 and 06/30/2022. Customer details include Birth Date, Marital Status, Gender, Annual Income, Email ID, Education Level, Number Of Children, Occupation, and Home-owner Status.
 
 The **objective** is to use the Power BI Desktop to:
-1. Connect and transform the raw data
-2. Build a relational data model
-3. Create calculated columns and measures with DAX
-4. Design an interactive dashboard to visualize the data
+• Connect and transform the raw data
+• Build a relational data model
+• Create calculated columns and measures with DAX
+• Design an interactive dashboard to visualize the data
 
 ## **Tools and Technologies**
  
-1. Power BI Desktop: For dashboard creation
-2. Power Query: Data transformation and data cleaning
-3. DAX (Data Analysis Expressions): Creation of calculated columns and measures
-4. Excel: Initial data exploration and validation
+• Power BI Desktop: For dashboard creation
+• Power Query: Data transformation and data cleaning
+• DAX (Data Analysis Expressions): Creation of calculated columns and measures
+• Excel: Initial data exploration and validation
 
 ## **Project Highlights**
 The project involved the following steps:
 **1. Data Transformation: Cleaned and transformed raw data using Power Query**
-1. The data was provided in csv format files for Customer Details, Product Categories, Product Sub-categories, Territories, Sales, and Returns.
-2. It is checked and cleaned for duplicates, error and tranformations were performed to create calculated columns and measures with common functions and formulas.
-3. It is ensured that all columns had clear titles, appropriate data types, and no missing values.
-4. This process also involved identifying potential relationships between different data tables.
-5. A rolling calendar is created using PowerQuery M code.
+• The data was provided in csv format files for Customer Details, Product Categories, Product Sub-categories, Territories, Sales, and Returns.
+• It is checked and cleaned for duplicates, error and tranformations were performed to create calculated columns and measures with common functions and formulas.
+• It is ensured that all columns had clear titles, appropriate data types, and no missing values.
+• This process also involved identifying potential relationships between different data tables.
+• A rolling calendar is created using PowerQuery M code.
 
 **2. Data Modeling: Created relationships and calculated columns for effective analysis**
-1. Built a relational data model by creating active relations between tables and understanding cardinality and filter flow.
-2. This involved establishing the 'Sales Data' and 'Returns Data' tables as the foundation, and one-to-many connections between tables were used for analysis.
+• Built a relational data model by creating active relations between tables and understanding cardinality and filter flow.
+• This involved establishing the 'Sales Data' and 'Returns Data' tables as the foundation, and one-to-many connections between tables were used for analysis.
 
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Data%20Modeling.png)
 
