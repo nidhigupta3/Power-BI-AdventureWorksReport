@@ -44,7 +44,7 @@ The project involved the following steps:
 
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Data%20Modeling.png)
 
-**3. Calculated fields with DAX: Created calculated columns and measures using DAX**
+**3. Calculated fields with DAX: Created calculated columns and measures using DAX**<br> 
 Leveraged DAX functions to unlock deeper insights from the Adventure Works dataset. Here are some key functions used:
 
 1. Math Functions: For example, SUM, AVERAGE, MAX/MIN, COUNT, DISTINCTCOUNT
