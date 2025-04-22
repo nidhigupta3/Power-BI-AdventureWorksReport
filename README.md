@@ -30,6 +30,7 @@ The **objective** is to use the Power BI Desktop to:
 
 ## **Project Highlights**
 The project involved the following steps:
+
 **1. Data Transformation: Cleaned and transformed raw data using Power Query**
 1. The data was provided in CSV files for Customer Details, Product Categories, Product Sub-categories, Territories, Sales, and Returns.
 2. It was checked and cleaned for duplicates, errors, and transformations were performed to create calculated columns and measures with common functions and formulas.
@@ -43,25 +44,29 @@ The project involved the following steps:
 
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Data%20Modeling.png)
 
-**3. Calculated fields with DAX**
-• Creating calculated columns and measures using DAX. I leveraged DAX functions to unlock deeper insights from the Adventure Works dataset. Here are some key functions I used:
+**3. Calculated fields with DAX: Created calculated columns and measures using DAX**
+Leveraged DAX functions to unlock deeper insights from the Adventure Works dataset. Here are some key functions used:
 
 1. Math Functions: For example, SUM, AVERAGE, MAX/MIN, COUNT, DISTINCTCOUNT
+   
 2. Logical Functions: For example, IF, AND, OR, NOT
+ 
 3. Text Functions: For example, CONCATENATE, REPLACE, UPPER/LOWER
+ 
 4. Filter Functions: For example, CALCULATE, FILTER, ALL
 _(For example, CALCULATE helped as a filter override, enabling me to create new filter contexts. It proved invaluable for analyzing trends over time, such as previous month’s orders, revenue, profit, returns, and overall average price)_
+
 5. Date, Time, Time Intelligence: For example, DATE, YEAR/MONTH, DATEDIFF, DATESYTD
 _(For example, DATESINPERIOD and DATESYTD helped in calculating metrics like 90-day rolling profit, along with comparing current data points to previous months in terms of orders, profit, revenue, and returns)_
+
 6. Iterator Functions: For example, SUMX, AVERAGEX
 _(For example, SUMX helped in calculating metrics like revenue, profit, and total orders for each data point, which then became the building blocks for further analysis)_
+
 7. Relationship Functions: For example, RELATED
 _(For example, RELATE seamlessly pull data from different tables for a more comprehensive analysis, similar in logic to VLOOKUP)_
  
-**4. Dashboard Development: Built interactive dashboards tailored to stakeholder needs.**
-• Producing analytical Reports: Detailed reports focusing on sales performance, customer demographics, inventory management, and more.
-  Visualizing data with reports
-  • Building a relational data model: Well-structured data models that integrate various data sources for a holistic view of the business.
+**4. Dashboard Development: Built interactive dashboards tailored to stakeholder needs**
+Visualizing data with reports
  • Building an interactive dashboard: Customized dashboards providing insightful metrics and KPIs relevant to the bike shop's operations.
  • Visualizations: A range of visualizations, including bar charts, line graphs, pie charts, and maps, offering intuitive data interpretations.
  Designed an interactive dashboard to visualize data using charts and visuals: KPI cards, Matrix, Slicers, Bar chart, Line and clustered column chart, Gauge, Map etc.
@@ -70,17 +75,21 @@ Created Bookmarks, drill-through filters and page level, report level filters.
 This project serves as a showcase of advanced Power BI techniques and offers a deep dive into the business analytics of a retail bike shop.
 
 ## **Data Visualizations for Adventure Works Analysis**
+
 My Power BI report utilized four key dashboards to unlock insights from the data:
+The dashboard had four pages, one for the executive team, one that had the geographical data, one that analyzed the products and finally a page for the customers.
 
 **Executive Dashboard:**
 
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Executive%20Dashboard.png)
 
 **Maps**
+The Maps page shows the geographical distribution of the company’s orders.
 
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Map.png)
 
 **Product Detail**
+The products page shows details for the All-Purpose bike stand. For that product, we can see the monthly KPI vs their targets, and that all KPIs had not been fully accomplished against their targets. We can also see graphs for the total profit and returns, which automatically adjust with the time-period on the x-axis.
 
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Product%20Details.png)
 
