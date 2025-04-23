@@ -53,16 +53,16 @@ Leveraged DAX functions to unlock deeper insights from the Adventure Works datas
  
 3. Text Functions: For example, CONCATENATE, REPLACE, UPPER/LOWER
  
-4. Filter Functions: For example, CALCULATE, FILTER, ALL
+4. Filter Functions: For example, CALCULATE, FILTER, ALL <br>
 _(For example, CALCULATE helped as a filter override, enabling me to create new filter contexts. It proved invaluable for analyzing trends over time, such as previous month’s orders, revenue, profit, returns, and overall average price)_
 
-5. Date, Time, Time Intelligence: For example, DATE, YEAR/MONTH, DATEDIFF, DATESYTD
+5. Date, Time, Time Intelligence: For example, DATE, YEAR/MONTH, DATEDIFF, DATESYTD <br>
 _(For example, DATESINPERIOD and DATESYTD helped in calculating metrics like 90-day rolling profit, along with comparing current data points to previous months in terms of orders, profit, revenue, and returns)_
 
-6. Iterator Functions: For example, SUMX, AVERAGEX
+6. Iterator Functions: For example, SUMX, AVERAGEX <br>
 _(For example, SUMX helped in calculating metrics like revenue, profit, and total orders for each data point, which then became the building blocks for further analysis)_
 
-7. Relationship Functions: For example, RELATED
+7. Relationship Functions: For example, RELATED <br>
 _(For example, RELATE seamlessly pull data from different tables for a more comprehensive analysis, similar in logic to VLOOKUP)_  <br>
  
 **4. Dashboard Development: Built interactive dashboards tailored to stakeholder needs** <br><br>
@@ -75,21 +75,21 @@ This project serves as a showcase of advanced Power BI techniques and offers a d
 
 The dashboard has four pages to unlock insights from the data - (1) one for the executive team, (2) one containing the geographical data, (3) one that analyzes the products, and (4) one for the customers' analysis: <br>
 
-**Executive Dashboard:**
+**1. Executive Dashboard page**
 <br>
 • The Executive Dashboard page provides an overall view of key performance indicators (KPIs) like total revenue, profit, and orders, and top-selling product lists for easy comprehension of overall performance.<br>
 • It is equipped with a slicer panel to filter data by year and continent for a more granular view.<br>
 <br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Executive%20Dashboard.png)  <br>
 
-**Maps**
+**2. Maps page**
 <br>
 • The Maps page shows a dynamic visualization of Adventure Works’ global order distribution, segmented by continents.<br>
 • It highlights dominant regions (e.g., US) and potential new markets (e.g., Asia, Africa, South America).<br>
 <br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Map.png)  <br>
 <br>
-**Product Detail**
+**3. Product Detail page**
 <br>
 • The Product Detail page enables a granular exploration of individual products.<br>
 • It shows details for the Patch Kit/8 Patches currently. For that product, we can see the monthly KPI versus their targets, and that not all KPIs have been fully accomplished against their targets.<br>
@@ -97,7 +97,7 @@ The dashboard has four pages to unlock insights from the data - (1) one for the 
 <br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Product%20Details.png)  <br>
 <br>
-**Customer Detail**
+**4. Customer Detail page**
 <br>
 • The Customer Detail page delves into customer demographics and their impact on business metrics.<br>
 • It utilizes doughnut charts to illustrate customer breakdown by occupation and income.<br>
@@ -106,22 +106,21 @@ The dashboard has four pages to unlock insights from the data - (1) one for the 
 <br>
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Customer%20Detail.png)  <br>
 <br>
+**Decomposition Tree**
+<br>
 Further analysis can be conducted with artificial intelligence visuals like Decomposition Trees and Key Influencers, as seen in the snippets below.<br>
 We can see that for the Product Categories 'Bikes', leading by returns rate in the Subcategory are the 'Touring Bikes', with the leading Product being the 'Touring-2000 Blue,46' bike with 8.33% Return Rate.<br>
 
-**Decomposition Tree**
+![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Decomposition%20Tree.png) <br>
 <br>
-![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Decomposition%20Tree.png)
-
-<br>
-The Key Influencers can be used to further analyze the data. In the instance shown below, one can find out what could lead a customer to be a homeowner, and by how much. For example, a parent is 1.58 times more likely to be a homeowner compared to non-parents, or a person is 1.06 times more likely to be a homeowner if their education level is 'Bachelors' compared to other levels of education in the data.<br><br>
-
 **Key Influencers**
 <br>
+The Key Influencers can be used to analyze the data further. In the instance shown below, one can find out what could lead a customer to be a homeowner, and by how much. For example, a parent is 1.58 times more likely to be a homeowner compared to non-parents, or a person is 1.06 times more likely to be a homeowner if their education level is 'Bachelors' compared to other levels of education in the data.<br><br>
+
 ![image alt](https://github.com/nidhigupta3/Power-BI-AdventureWorksReport/blob/293490584cdb85be23a8ae9b0fe2d31d367936d6/Screenshots/Key%20Influencers.png)
 
 
 ## **Key Learnings & Skills**
-• DAX & Data Modeling: DAX language for calculated columns and measures.
-• Interactive Visuals: Utilized bookmarks, dynamic titles, and tooltips to enhance user experience.
+• DAX & Data Modeling: DAX language for calculated columns and measures.<br>
+• Interactive Visuals: Utilized bookmarks, dynamic titles, and tooltips to enhance user experience.<br>
 • KPI Implementation: Applied conditional formatting and KPI indicators for quick insights.
